@@ -55,7 +55,7 @@ public class JurovetSplash extends JFrame {
     
     public static JurovetSplash getInstance() {
     	if (instance == null) {
-    		instance = new JurovetSplash("C:\\Users\\james.freed\\eclipse-workspace\\JuroVetX2\\src\\images\\splash.png", 3000);
+    		instance = new JurovetSplash("src\\images\\splash.png", 3000);
     	}
     	return instance;
     }
